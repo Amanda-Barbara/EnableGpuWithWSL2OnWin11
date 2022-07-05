@@ -21,8 +21,8 @@ wsl --export <Distribution Name> <FileName>
 # wsl --export Ubuntu-20.04 Ubuntu-20.04.tar
 
 # 将指定的tar包文件作为新发行版导入
-wsl --import <Distribution Name> <InstallLocation FileName>
-#wsl --import Ubuntu-20.04 Ubuntu-20.04.tar
+wsl --import <Distribution Name> <InstallLocation> <FileName>
+#wsl --import Ubuntu-20.04 D:\from_linux\wsl-ubuntu-tar Ubuntu-20.04.tar
 ```
 
 
