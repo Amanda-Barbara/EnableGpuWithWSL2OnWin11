@@ -176,7 +176,7 @@ deactivate #退出虚拟环境
 ```text
 # Settings apply across all Linux distros running on WSL 2
 [wsl2]
-guiapplications=false
+# guiapplications=false
 # Limits VM memory to use no more than 4 GB, this can be set as whole numbers using GB or MB
 memory=16GB 
 
@@ -205,7 +205,7 @@ localhostforwarding=true
 nestedVirtualization=false
 
 # Turns on output console showing contents of dmesg when opening a WSL 2 distro for debugging
-debugConsole=true
+debugConsole=false
 
 ```
 * 关闭所有`wsl2`开启的虚拟机系统，打开`powershell`终端，
