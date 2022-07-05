@@ -210,6 +210,13 @@ nestedVirtualization=false
 debugConsole=false
 
 ```
+* [参考](https://docs.microsoft.com/en-us/windows/wsl/wsl-config#boot-settings)编辑`\\wsl.localhost\Ubuntu-20.04\etc\wsl.conf`具体的虚拟机系统启动配置文件
+```text
+# Set a command to run when a new WSL instance launches. This example starts the Docker container service.
+[boot]
+command = service docker start
+```
+
 * 关闭所有`wsl2`开启的虚拟机系统，打开`powershell`终端，
 ```shell
 # 查看目前正在运行的虚拟机系统
