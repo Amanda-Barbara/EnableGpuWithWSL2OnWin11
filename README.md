@@ -1,0 +1,2 @@
+# EnableGpuWithWSL2OnWin11
+win11在WSL2虚拟环境中使用GPU开启训练任务
