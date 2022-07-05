@@ -102,6 +102,7 @@ sudo apt-get -y install cuda
 ```shell
 sudo usermod -aG docker ${USER}
 # 该命令需要重启系统后才能生效
+# sudo docker rm $(sudo docker ps -a -q) #删除已停止运行的容器。
 ```
 
 ## 深度学习训练任务在不同环境下的训练速度对比
