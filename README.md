@@ -164,10 +164,12 @@ GPU Device 0: "Ampere" with compute capability 8.6
 
 ## 训练`yolov5`
 ```shell
-git clone 
+git clone https://github.com/ultralytics/yolov5.git
 sudo apt install python3.8-venv
+cd ~/workspace/algorithm/object_detection/yolo/yolov5
 python3 -m venv ./venv_yolov5
 source venv_yolov5/bin/activate #进入虚拟环境
+python3 train.py --batch-size=16
 deactivate #退出虚拟环境
 ```
 
