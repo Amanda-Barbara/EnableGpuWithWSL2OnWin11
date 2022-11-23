@@ -5,6 +5,13 @@
 
 ## `wsl`指令知识总结
 ```shell
+# 升级`wsl`软件至`wsl2`版本
+wsl --install #升级后需要更新系统并重启
+
+# 查看`wsl`软件版本以及`linux`内核版本：
+wsl cat /proc/version
+#Linux version 5.10.102.1-microsoft-standard-WSL2
+
 #关闭系统：
 wsl --shutdown
 #取消注册或者卸载系统：
@@ -12,9 +19,6 @@ wsl --unregister Ubuntu-20.04
 #重装：
 wsl --install --distribution Ubuntu-20.04
 #或者点击：开始->ubuntu图标
-#查看linux内核版本：
-wsl cat /proc/version
-#Linux version 5.10.102.1-microsoft-standard-WSL2
 
 # 将分发系统导出后缀名为`TAR`的文件
 wsl --export <Distribution Name> <FileName>
